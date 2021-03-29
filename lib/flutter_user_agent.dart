@@ -27,12 +27,12 @@ class FlutterUserAgent {
   }
 
   /// Returns the device's user agent.
-  static String get userAgent {
+  static String? get userAgent {
     return _properties?['userAgent'];
   }
 
   /// Returns the device's webview user agent.
-  static String get webViewUserAgent {
+  static String? get webViewUserAgent {
     return _properties?['webViewUserAgent'];
   }
 
